@@ -2,7 +2,8 @@
 Predicting the writing score of students using XGBoost regression model
 
 [Dataset obtained here](https://www.kaggle.com/spscientist/students-performance-in-exams) 
-
+1. [Analyzing the data](https://github.com/eseb96/Student-Exam#1-analyzing-the-data)
+2. [Data Preprocessing](https://github.com/eseb96/Student-Exam#1-data preprocessing)
 ## 1. Analyzing the data
 ``` 
 import pandas as pd
