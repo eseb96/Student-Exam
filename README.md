@@ -2,7 +2,11 @@
 Predicting the writing score of students using XGBoost regression model
 
 [Dataset obtained here](https://www.kaggle.com/spscientist/students-performance-in-exams) 
-## 1. [Analyzing the data]
+## Table of Content
+### 1. Analyzing the data
+### 2. Data Preprocessing
+### 3. Training the model
+### 4. Conclusion
 ## 1. Analyzing the data
 ``` 
 import pandas as pd
