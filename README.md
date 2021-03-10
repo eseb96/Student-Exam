@@ -7,7 +7,7 @@ Predicting the writing score of students using XGBoost regression model
 ### 2. Data Preprocessing
 ### 3. Training the model
 ### 4. Conclusion
-## <a href='#section2'>1. Analyzing the data</a>
+## <a id='#section1'>1. Analyzing the data</a>
 ``` 
 import pandas as pd
 import matplotlib.pyplot as plt
