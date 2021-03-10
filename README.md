@@ -28,12 +28,14 @@ fig,ax = plt.subplots(ncols=2,figsize=(25,5))
 sns.boxplot(x='lunch',y='writing score',data=dataset,ax=ax[0])
 sns.boxplot(x='parental level of education',y='writing score',data=dataset,ax=ax[1])
 ```
-![image](https://user-images.githubusercontent.com/64945381/110493144-25a0cb80-8125-11eb-9fa1-186c5ad29cc7.png)
+![image](https://user-images.githubusercontent.com/64945381/110570820-210dfe80-8189-11eb-9409-0700c0c0b25e.png)
 
 Here we create a series of boxplots with the y-variable being the writing score and the x-variable being all the other parameters (except the __math score__ and __reading score__). From what can be seen the test preparation course and parental level of education plays the biggest part among all five of the parameters.
 
-![image](https://user-images.githubusercontent.com/64945381/110494616-59c8bc00-8126-11eb-8bdc-de076d0970b9.png)
-![image](https://user-images.githubusercontent.com/64945381/110494553-4e759080-8126-11eb-9f6d-8d5d2738d877.png)
+![image](https://user-images.githubusercontent.com/64945381/110570854-2e2aed80-8189-11eb-9b8e-b37f77b2aaf2.png)
+
+![image](https://user-images.githubusercontent.com/64945381/110570874-371bbf00-8189-11eb-901f-166f54cd4acd.png)
+
 
 A scatter plot is created to determine the relationship between the __reading score__ and __math score__ with the __writing score__. Here we can see a rather linear correlation for both the __reading score__ and __math score__. 
 ## 2. Data Preprocessing
