@@ -4,7 +4,7 @@ Predicting the writing score of students using XGBoost regression model
 [Dataset obtained here](https://www.kaggle.com/spscientist/students-performance-in-exams) 
 
 ## 1. Analyzing the data
-``` 
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -17,7 +17,7 @@ dataset.head()
 
 Here we are given a total of 8 parameters in the dataset. One row represents the profile of the student and the results they got. Our aim is to build a regression model that can predict the __writing score__. To do that we have to first analyze whether or not each of the parameters correlate with one another and how signficant are they in predicting the __writing score__.
 
-```
+```python
 import seaborn as sns
 
 fig,ax = plt.subplots(ncols=3,figsize=(20,5))
